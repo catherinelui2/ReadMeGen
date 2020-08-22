@@ -2,27 +2,31 @@
 function generateMarkdown(answers) {
   return `
   ![](https://img.shields.io/badge/License-${answers.license}-green)
+  ![App Demo]()
 
-  ## ${answers.title}
+  # ${answers.title}
   # Description
-  ${answers.description}
-  # Table of Contents
-  1.Installation
-  2.Usage
-  3.Contributing
-  4.Tests
-  5.Questions
-  # Installation
-  # Usage
+  ${answers.description}<br>
+  ## Table of Contents<br>
+  1.[Installation](#Installation)<br>
+  2.[Usage](#usage)<br>
+  3.[Contributing](#contributing)<br>
+  4.[Tests](#tests)<br>
+  5.[Questions](#questions)<br>
+
+  ## Installation
+  ${answers.installation}
+  ## Usage
   ${answers.usage}
-  # Contributing
+  ## Contributing
   ${answers.contributing}
-  # Tests
+  ## Tests
   ${answers.tests}
-  # Questions
-  Email: ${answers.email}
-  Github: https://github.com/${answers.github}
-  ©${answers.license}
+  ## Questions
+  Feel free to reach via email if you have any questions about this app.
+  Email: ${answers.email}<br>
+  Github: https://github.com/${answers.github}<br>
+  Licensed under ©${answers.license}
   `;
 }
 
