@@ -3,7 +3,7 @@
 
   # Readme File Generator
   # Description
-  ![App Demo](https://catherinelui2.github.io/ReadMeGen/demo.gif)
+  ![https://catherinelui2.github.io/ReadMeGen/demo.gif](https://catherinelui2.github.io/ReadMeGen/demo.gif)
   This app helps you generate a readme file via asynchronous functions and node.js.<br>
   ## Table of Contents<br>
   1.[Installation](#Installation)<br>
