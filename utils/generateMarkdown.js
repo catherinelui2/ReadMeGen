@@ -2,10 +2,10 @@
 function generateMarkdown(answers) {
   return `
   ![](https://img.shields.io/badge/License-${answers.license}-green)
-  ![App Demo]()
 
   # ${answers.title}
   # Description
+  ![App Demo](https://catherinelui2.github.io/ReadMeGen/demo.gif)
   ${answers.description}<br>
   ## Table of Contents<br>
   1.[Installation](#Installation)<br>
