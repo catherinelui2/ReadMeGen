@@ -1,0 +1,22 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "ReadMeGen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Catherine Lui",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherinelui2/ReadMeGen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catherinelui2/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/catherinelui2/ReadMeGen#readme"
+}
